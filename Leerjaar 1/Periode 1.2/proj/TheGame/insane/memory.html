@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+
+      <title>Memory Game</title>
+
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="title">Insane</h1>
+    <h1 class="scoreH">Score: <span id="score"span>0</span></h1>
+    <h1 class="livesH">Lives: <span id="lives"span>25</span></h1>
+
+    <section class="memory-game">
+      <div class="memory-card" data-framework="bells">
+        <img class="front-face" src="img/bells.png" alt="Christmas bells">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="bells">
+        <img class="front-face" src="img/bells.png" alt="Christmas bells">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="tree">
+        <img class="front-face" src="img/tree.png" alt="Christmas Tree">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="tree">
+        <img class="front-face" src="img/tree.png" alt="Christmas Tree">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="gift">
+        <img class="front-face" src="img/gift.png" alt="Christmas present">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="gift">
+        <img class="front-face" src="img/gift.png" alt="Christmas present">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="sock">
+        <img class="front-face" src="img/sock.png" alt="Christmas Sock">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="sock">
+        <img class="front-face" src="img/sock.png" alt="Christmas Sock">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="snowman">
+        <img class="front-face" src="img/snowman.png" alt="Snowman">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="snowman">
+        <img class="front-face" src="img/snowman.png" alt="Snowman">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="sleight">
+        <img class="front-face" src="img/sleight.png" alt="Santas sleight">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="sleight">
+        <img class="front-face" src="img/sleight.png" alt="Santas sleight">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="owl">
+        <img class="front-face" src="img/owl.png" alt="Christmas owl">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="owl">
+        <img class="front-face" src="img/owl.png" alt="Christmas owl">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="gingerbreadman">
+        <img class="front-face" src="img/gingerbreadman.png" alt="Gingerbread Man">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="gingerbreadman">
+        <img class="front-face" src="img/gingerbreadman.png" alt="Gingerbread Man">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="reindeer">
+        <img class="front-face" src="img/reindeer.png" alt="Reindeer">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="reindeer">
+        <img class="front-face" src="img/reindeer.png" alt="Reindeer">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="santa">
+        <img class="front-face" src="img/santa.png" alt="Santa">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="santa">
+        <img class="front-face" src="img/santa.png" alt="Santa">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="candle">
+        <img class="front-face" src="img/candle.png" alt="Candle">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="candle">
+        <img class="front-face" src="img/candle.png" alt="Candle">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="candycane">
+        <img class="front-face" src="img/candycane.png" alt="Candycane">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="candycane">
+        <img class="front-face" src="img/candycane.png" alt="Candycane">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="elf">
+        <img class="front-face" src="img/elf.png" alt="Elf">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="elf">
+        <img class="front-face" src="img/elf.png" alt="Elf">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="hat">
+        <img class="front-face" src="img/hat.png" alt="Santas hat">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="hat">
+        <img class="front-face" src="img/hat.png" alt="Santas hat">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="bag">
+        <img class="front-face" src="img/bag.png" alt="Santas bag">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="bag">
+        <img class="front-face" src="img/bag.png" alt="Santas bag">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+
+      <div class="memory-card" data-framework="mistletoe">
+        <img class="front-face" src="img/mistletoe.png" alt="Mistletoe">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+      <div class="memory-card" data-framework="mistletoe">
+        <img class="front-face" src="img/mistletoe.png" alt="Mistletoe">
+        <img class="back-face" src="img/wreath.png" alt="Christmas Wreath">
+      </div>
+    </section>
+
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

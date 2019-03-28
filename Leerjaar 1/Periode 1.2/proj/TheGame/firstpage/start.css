@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+body{
+  background-image: url('img/bg.jpg');
+}
+
+.title{
+  position: table;
+  text-align: center;
+  font-size: 50px;
+  color: green;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.memoryDiv{
+  position: relative;
+  margin: 0 auto;
+  background-color: green;
+  width: 1000px;
+  height: 300px;
+  border-radius: 4%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wreath{
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: auto;
+}
+
+.snowman{
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: auto;
+}
+
+.playButton{
+  position: absolute;
+  float: left;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.divText{
+  font-size: 50px;
+  margin: 0;
+  color: #b30000;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  position: absolute;
+  float: left;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
