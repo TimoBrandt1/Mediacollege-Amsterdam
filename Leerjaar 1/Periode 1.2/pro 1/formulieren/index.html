@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+  <title>Customer Info</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body lang="en">
+  <h1>Jouw mening</h1>
+  <p>Dit formulier stelt wat vragen over uw mening van verschillende onderwerpen.</p>
+
+
+
+  <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="get">
+    <label>Name *
+  <input type = "text" name="Naam" placeholder="First and Last name" required="required" autofocus /></label>
+  <br/>
+  <label>E-mail * <input type ="email" placeholder="00000@ma-web.nl" name="E-mail" required="required" /></label>
+  <br>
+
+  <label>In welke klas zit jij?</label>
+  <select name="Klas" >
+    <option value="MG1A">MG1A</option>
+    <option value="MG1B">MG1B</option>
+    <option value="MG1C">MG1C</option>
+    <option value="MG1D">MG1D</option>
+ </select>
+    <fieldset>
+  <legend>Opleiding</legend>
+  <br/>
+  <p>Welk van de onderstaande vakken vind jij leuk?</p>
+    <input type="checkbox" name="UXD" value="UXD">UXD
+    <input type="checkbox" name="PROJ" value="PROJ">PROJ
+    <input type="checkbox" name="PRO1" value="PRO1">PRO1
+    <input type="checkbox" name="PRO2" value="PRO2">PRO2
+
+  <br/>
+  </fieldset>
+
+
+  <fieldset class="welbevinden">
+    <legend>Cijfer</legend>
+    <p>Wat voor cijfer zou je de opdrachten van deze vakken geven?</p>
+    <p>UXD</p>
+    <label id="onder"><input type="radio" name="Cijfer UXD" value="1">1</label>
+    <label id="onder"><input type="radio" name="Cijfer UXD" value="2">2</label>
+    <label id="onder"><input type="radio" name="Cijfer UXD" value="3">3</label>
+    <label id="onder"><input type="radio" name="Cijfer UXD" value="4">4</label>
+    <label id="onder"><input type="radio" name="Cijfer UXD" value="5">5</label>
+    <label id="onder"><input type="radio" name="Cijfer UXD" value="6">6</label>
+    <label id="onder"><input type="radio" name="Cijfer UXD" value="7">7</label>
+    <label id="onder"><input type="radio" name="Cijfer UXD" value="8">8</label>
+    <label id="onder"><input type="radio" name="Cijfer UXD" value="9">9</label>
+    <label id="onder"><input type="radio" name="Cijfer UXD" value="10">10</label>
+
+
+  <p>PROJ</p>
+    <label id="onder"><input type="radio" name="Cijfer PROJ" value="1">1</label>
+    <label id="onder"><input type="radio" name="Cijfer PROJ" value="2">2</label>
+    <label id="onder"><input type="radio" name="Cijfer PROJ" value="3">3</label>
+    <label id="onder"><input type="radio" name="Cijfer PROJ" value="4">4</label>
+    <label id="onder"><input type="radio" name="Cijfer PROJ" value="5">5</label>
+    <label id="onder"><input type="radio" name="Cijfer PROJ" value="6">6</label>
+    <label id="onder"><input type="radio" name="Cijfer PROJ" value="7">7</label>
+    <label id="onder"><input type="radio" name="Cijfer PROJ" value="8">8</label>
+    <label id="onder"><input type="radio" name="Cijfer PROJ" value="9">9</label>
+    <label id="onder"><input type="radio" name="Cijfer PROJ" value="10">10</label>
+
+  <p>PRO1</p>
+    <label id="onder"><input type="radio" name="Cijfer PRO1" value="1">1</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO1" value="2">2</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO1" value="3">3</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO1" value="4">4</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO1" value="5">5</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO1" value="6">6</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO1" value="7">7</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO1" value="8">8</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO1" value="9">9</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO1" value="10">10</label>
+
+  <p>PRO2</p>
+    <label id="onder"><input type="radio" name="Cijfer PRO2" value="1">1</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO2" value="2">2</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO2" value="3">3</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO2" value="4">4</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO2" value="5">5</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO2" value="6">6</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO2" value="7">7</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO2" value="8">8</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO2" value="9">9</label>
+    <label id="onder"><input type="radio" name="Cijfer PRO2" value="10">10</label>
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Toevoeging</legend>
+    <p>Wilt u nog iets over de opleiding kwijt?</p>
+    <textarea name="Toevoegingen" rows="8" cols="55">
+
+    </textarea>
+
+  </fieldset>
+    <fieldset>
+      <legend>Keuze</legend>
+  <label>Wat word de keuze van uw opleiding?
+    <select name="Keuze opleiding" >
+      <option value="Mediadeveloper">Mediadeveloper</option>
+       <option value="Gamedeveloper">Gamedeveloper</option>
+       <option value="Anders">Weet ik nog niet</option>
+   </select></label></fieldset>
+   <br/>
+  <input type="submit" value="Submit Form" />
+  </form>
+<br/>
+<div id="validatie">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+    </a>
+</div>
+</body>
+</html>

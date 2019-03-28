@@ -1,0 +1,13 @@
+#onder
+{
+  display: inline-block;
+  padding: 1em;
+  cursor: pointer;
+  text-align: center;
+  background-color: red;
+}
+
+.welbevinden input
+{
+  display: block;
+}
