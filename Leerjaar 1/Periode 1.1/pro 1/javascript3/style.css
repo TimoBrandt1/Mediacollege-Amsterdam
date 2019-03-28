@@ -1,0 +1,39 @@
+body
+{
+  text-align: center;
+  background-color: #000000;
+}
+
+#kop
+{
+  color: #00ff00;
+}
+
+#img_1
+{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display:none;
+}
+#img_2
+{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display:none;
+}
+#validatie img {
+  height: 1em;
+  width: auto;
+  border: 0;
+  margin: 0 .3em;
+
+}
+
+#Title{color:white;}
+footer
+{
+ position: fixed;
+ bottom: 0px;
+ width: 100%;
+ text-align: center;
+}

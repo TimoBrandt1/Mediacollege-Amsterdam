@@ -1,0 +1,31 @@
+body
+{
+  background-color: black;
+}
+
+.naam
+{
+  font-family: monospace;
+}
+
+#validatie img
+{
+    position: relative;
+    height: 50px;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+    left: 800px;
+}
+
+.center
+{
+  margin: auto;
+  width: 40%;
+  border: 3px solid red;
+  border-radius: 5%;
+  padding: 10px;
+  font-family:monospace;
+  font-size: 2.5em;
+  background-color: #ccffff;
+}

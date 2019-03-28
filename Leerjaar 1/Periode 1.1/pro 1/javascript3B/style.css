@@ -1,0 +1,68 @@
+body
+{
+  text-align: center;
+  background-color: #000000;
+}
+
+#kop
+{
+  color: #00FF00;
+}
+
+#bgKop
+{
+  color: #00FF00;
+}
+
+#img_1
+{
+  display: block;
+  margin:auto;
+  height: 400px;
+  width: 400px;
+  transition-duration: 2s;
+}
+
+#img_1:hover
+{
+  transition-duration: 1s;
+  -webkit-transform: scale(1.3) rotate(360deg);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3) rotate(360deg);
+  border-radius: 25%;
+
+
+}
+
+#button_1:hover
+{
+  background-color: red;
+}
+
+#button_2:hover
+{
+  background-color: gold;
+}
+
+#button_3:hover
+{
+  background-color: green;
+}
+
+#button_4:hover
+{
+  background-color: gold;
+}
+
+#button_5:hover
+{
+  background-color: red;
+}
+
+#validatie
+{
+    position: fixed;
+    top: 50%;
+    left: 95%;
+    float: right;
+}
