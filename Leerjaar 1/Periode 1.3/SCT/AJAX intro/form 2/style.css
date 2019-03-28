@@ -1,0 +1,15 @@
+#form_CSS{
+  border: solid 1px black;
+  background-color: lightgray;
+}
+input{
+  padding: 3px 0px 0px 3px;
+  margin: 5px;
+}
+
+#responseHere{
+  border: dotted 1px black;
+  background-color: lightgray;
+  margin: 5px;
+  padding: 5px;
+}
