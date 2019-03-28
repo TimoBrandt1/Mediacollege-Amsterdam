@@ -1,0 +1,88 @@
+/* Centers all text */
+*{
+  text-align: center;
+}
+
+/* html changes */
+html {
+  /* background image */
+  background-image: url(img/bg.jpg);
+  /* text color */
+  color: white;
+  /* size of the text */
+  font-size: 30px;
+}
+
+/* Div around everything */
+div {
+  padding: 10px;
+  background-color: grey;
+  margin: auto;
+  width: 50%;
+}
+
+/* Image Temperatuur */
+#temp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/* Image Rectangle */
+#rectangle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Image Circle */
+#circle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/* Button temp */
+#button {
+  color: black;
+  font-size: 30px;
+}
+
+/* Button temp hover */
+#button:hover {
+  background-color: #f44336;
+  color: white;
+  font-size: 30px;
+  border: 2px solid #f44336;
+}
+
+/* Button Circle */
+#button1 {
+  color: black;
+  font-size: 30px;
+}
+
+/* Button Circle hover */
+#button1:hover {
+  background-color: #f44336;
+  color: white;
+  font-size: 30px;
+  border: 2px solid #f44336;
+}
+
+/* Button Rectangle */
+#button2 {
+  color: black;
+  font-size: 30px;
+}
+
+/* Button Rectangle hover */
+#button2:hover {
+  background-color: #f44336;
+  color: white;
+  font-size: 30px;
+  border: 2px solid #f44336;
+}
