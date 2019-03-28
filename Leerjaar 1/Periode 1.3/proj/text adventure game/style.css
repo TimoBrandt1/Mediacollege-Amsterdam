@@ -1,0 +1,113 @@
+html{
+  height: 100%;
+}
+/* Background color */
+body{
+  background-color: red;
+}
+
+/* Feedback text */
+#feedback{
+  background-color: yellow;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Grid */
+#grid{
+  margin: auto;
+  padding: 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.grid-container{
+  width: 60%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding: 20px;
+  border: slategrey 3px solid;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr auto 0.4fr 0.4fr auto 0.5fr;
+}
+
+.image{
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+ul{
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+#imageLocation{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#location{
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+#description{
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+#inventory{
+  padding: 5px;
+  font-size: 22.5px;
+  text-align: center;
+  vertical-align: middle;
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+
+#feedback{
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+#input{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 6/7;
+}
+
+#myInput{
+  text-align: center;
+  outline-color: black;
+  outline-width: 2px;
+}
+
+#possibilities{
+  font-size: 20px;
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 7/8;
+}
+
+@media only screen and (max-width: 840px) {
+  .grid-container{
+    width: 90%;
+  }
+  #imageLocation{
+    width: 90%;
+  }
+}
